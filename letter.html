@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Saira:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>상훈혜수 2주년</title>
+	<meta name="description" content="SangSoo 2nd anniversary">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content=" https://mozering.github.io/sangsoo/">
+	<meta property="og:title" content="SangSoo 2nd anniversary">
+	<meta property="og:description" content="상훈이와 혜수가 2주년을 맞이했습니다~ 축하해주세요!">
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+	<div class="logo"> <a href="index.html"><img src="img/logo.png"></a></div>
+		<div class="menu">
+	<ul class="navbar">
+		<li class="navitem"><a href="gift.html"> GIFT</a></li>
+		<li class="navitem"> <a href="letter.html">LETTER </a></li>
+		<li class="navitem"><a href="album.html"> ALBUM</a> </li>
+		<li class="navitem"> <a href="playlist.html">PLAYLIST</a></li>
+	</ul>
+</div>
+<div class="textbox"><p>CLICK!</p></div>
+<div class="mail"><a class="trigger_popup_fricc"> <img src="img/mail.png"></a></div>
+
+
+<div class="hover_bkgr_fricc">
+    <span class="helper"></span>
+    <div>
+        <div class="popupCloseButton">&times;</div>
+       <img src="img/letter.png">
+
+    </div>
+	
+</body>
+<script type="text/javascript">
+	$(window).load(function () {
+    $(".trigger_popup_fricc").click(function(){
+       $('.hover_bkgr_fricc').show();
+    });
+    $('.hover_bkgr_fricc').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+    $('.popupCloseButton').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+});
+</script>
+</html>

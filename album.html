@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Saira:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<meta charset="utf-8">
+	<title>상훈혜수 2주년</title>
+	<meta name="description" content="SangSoo 2nd anniversary">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content=" https://mozering.github.io/sangsoo/">
+	<meta property="og:title" content="SangSoo 2nd anniversary">
+	<meta property="og:description" content="상훈이와 혜수가 2주년을 맞이했습니다~ 축하해주세요!">
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <link href="http://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="logo"> <a href="index.html"><img src="img/logo.png"></a></div>
+	<div class="menu">
+	<ul class="navbar">
+		<li class="navitem"><a href="gift.html"> GIFT</a></li>
+		<li class="navitem"> <a href="letter.html">LETTER </a></li>
+		<li class="navitem"><a href="album.html"> ALBUM</a> </li>
+		<li class="navitem"> <a href="playlist.html">PLAYLIST</a></li>
+	</ul>
+</div>
+
+<div class="textbox"><p> 앞으로도 행복하자! </p></div>
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="img/1.jpeg" style="width:100%">
+  <img class="mySlides" src="img/2.jpeg" style="width:100%">
+  <img class="mySlides" src="img/3.jpeg" style="width:100%">
+  <img class="mySlides" src="img/4.jpeg" style="width:100%">
+  <img class="mySlides" src="img/5.jpeg" style="width:100%">
+  <img class="mySlides" src="img/6.jpeg" style="width:100%">
+    <img class="mySlides" src="img/7.jpeg" style="width:100%">
+  <img class="mySlides" src="img/8.jpeg" style="width:100%">
+  <img class="mySlides" src="img/9.jpeg" style="width:100%">
+  <img class="mySlides" src="img/10.jpeg" style="width:100%">
+  <img class="mySlides" src="img/11.jpeg" style="width:100%">
+  <img class="mySlides" src="img/12.jpeg" style="width:100%">
+   <img class="mySlides" src="img/13.jpeg" style="width:100%">
+  <img class="mySlides" src="img/14.jpeg" style="width:100%">
+  <img class="mySlides" src="img/15.jpeg" style="width:100%">
+  <img class="mySlides" src="img/16.jpeg" style="width:100%">
+    <img class="mySlides" src="img/17.jpeg" style="width:100%">
+  <img class="mySlides" src="img/18.jpeg" style="width:100%">
+  <img class="mySlides" src="img/19.jpeg" style="width:100%">
+  <img class="mySlides" src="img/20.jpeg" style="width:100%">
+  <img class="mySlides" src="img/21.jpeg" style="width:100%">
+  <img class="mySlides" src="img/22.jpeg" style="width:100%">
+     <img class="mySlides" src="img/23.jpeg" style="width:100%">
+  <img class="mySlides" src="img/24.jpeg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</body>
+</html>
